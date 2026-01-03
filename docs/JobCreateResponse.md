@@ -1,0 +1,93 @@
+# JobCreateResponse
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**JobId** | **string** |  | 
+**Status** | **string** |  | 
+**CreatedAt** | **string** |  | 
+
+## Methods
+
+### NewJobCreateResponse
+
+`func NewJobCreateResponse(jobId string, status string, createdAt string, ) *JobCreateResponse`
+
+NewJobCreateResponse instantiates a new JobCreateResponse object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewJobCreateResponseWithDefaults
+
+`func NewJobCreateResponseWithDefaults() *JobCreateResponse`
+
+NewJobCreateResponseWithDefaults instantiates a new JobCreateResponse object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetJobId
+
+`func (o *JobCreateResponse) GetJobId() string`
+
+GetJobId returns the JobId field if non-nil, zero value otherwise.
+
+### GetJobIdOk
+
+`func (o *JobCreateResponse) GetJobIdOk() (*string, bool)`
+
+GetJobIdOk returns a tuple with the JobId field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetJobId
+
+`func (o *JobCreateResponse) SetJobId(v string)`
+
+SetJobId sets JobId field to given value.
+
+
+### GetStatus
+
+`func (o *JobCreateResponse) GetStatus() string`
+
+GetStatus returns the Status field if non-nil, zero value otherwise.
+
+### GetStatusOk
+
+`func (o *JobCreateResponse) GetStatusOk() (*string, bool)`
+
+GetStatusOk returns a tuple with the Status field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetStatus
+
+`func (o *JobCreateResponse) SetStatus(v string)`
+
+SetStatus sets Status field to given value.
+
+
+### GetCreatedAt
+
+`func (o *JobCreateResponse) GetCreatedAt() string`
+
+GetCreatedAt returns the CreatedAt field if non-nil, zero value otherwise.
+
+### GetCreatedAtOk
+
+`func (o *JobCreateResponse) GetCreatedAtOk() (*string, bool)`
+
+GetCreatedAtOk returns a tuple with the CreatedAt field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCreatedAt
+
+`func (o *JobCreateResponse) SetCreatedAt(v string)`
+
+SetCreatedAt sets CreatedAt field to given value.
+
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
